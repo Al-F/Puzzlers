@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 class MergeLinkedLists {
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {

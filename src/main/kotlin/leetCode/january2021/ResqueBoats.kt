@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 /**
  * The i-th person has weight people[i], and each boat can carry a maximum weight of limit.d

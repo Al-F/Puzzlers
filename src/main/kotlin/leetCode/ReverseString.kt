@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 /**
  * Question: 344. Reverse String

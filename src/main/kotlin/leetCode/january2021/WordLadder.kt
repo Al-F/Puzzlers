@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 /**
  * Given two words beginWord and endWord, and a dictionary wordList, return the length of the shortest transformation sequence from beginWord to endWord, such that:

@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers.

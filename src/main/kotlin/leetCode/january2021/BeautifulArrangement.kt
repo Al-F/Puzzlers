@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 /**
  * Suppose you have n integers labeled 1 through n.

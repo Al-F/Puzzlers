@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 /**
  * Given an integer array instructions, you are asked to create a sorted array from the elements in instructions.

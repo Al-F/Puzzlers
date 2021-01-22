@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 /**
  * Question: 345. Reverse Vowels of a String

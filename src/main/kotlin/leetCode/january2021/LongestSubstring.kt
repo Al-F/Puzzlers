@@ -1,4 +1,4 @@
-package LeetCode.January2021
+package leetCode.january2021
 
 import kotlin.math.max
 
