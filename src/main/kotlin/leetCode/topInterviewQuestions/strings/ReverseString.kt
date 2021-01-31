@@ -1,4 +1,4 @@
-package leetCode
+package leetCode.topInterviewQuestions.strings
 
 /**
  * Question: 344. Reverse String
