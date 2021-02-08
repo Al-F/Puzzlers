@@ -1,5 +1,7 @@
 package leetCode.january2021
 
+import leetCode.february2021.ListNode
+
 class MergeLinkedLists {
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
         var lastNode = ListNode(0)
@@ -32,7 +34,7 @@ class MergeLinkedLists {
     }
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
+//class ListNode(var `val`: Int) {
+//    var next: ListNode? = null
+//}
 
