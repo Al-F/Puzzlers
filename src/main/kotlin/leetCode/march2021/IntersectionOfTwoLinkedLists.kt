@@ -1,9 +1,5 @@
 package leetCode.march2021
 
-import leetCode.february2021.ListNode
-
-//1 9 1 0 2
-
 class IntersectionOfTwoLinkedLists {
     fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
         if (headA == null || headB == null) return null
@@ -46,4 +42,8 @@ class IntersectionOfTwoLinkedLists {
             start
         }
     }
+}
+
+class ListNode(var `val`: Int) {
+    var next: ListNode? = null
 }

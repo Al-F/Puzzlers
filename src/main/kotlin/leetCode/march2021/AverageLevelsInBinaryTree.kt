@@ -1,13 +1,11 @@
 package leetCode.march2021
 
-import leetCode.february2021.TreeNode
-
 //[3,9,20,15,7]
 class AverageLevelsInBinaryTree {
-    fun averageOfLevels(root: TreeNode?): DoubleArray {
+    fun averageOfLevels(root: AddOneRowToTree.TreeNode?): DoubleArray {
         val result = ArrayList<Double>()
         if (root == null) return result.toDoubleArray()
-        val deque = ArrayDeque<Pair<TreeNode, Int>>()
+        val deque = ArrayDeque<Pair<AddOneRowToTree.TreeNode, Int>>()
         deque.add(root to 0)
         var level = 0
         var acc: Long = 0
