@@ -14,6 +14,7 @@ class MinimumOperationsToMakeArrayEqual {
 
         return sum
     }
+    //Yep, that really works.
     fun minConstant(n: Int): Int {
         return n*n/4
     }
