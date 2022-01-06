@@ -20,6 +20,6 @@ class FlipStringToMonotoneIncreasing {
             }
             flips[i] = flipToZero to flipToOne
         }
-        return flips.map { it.first + it.second }.min() ?: 0
+        return flips.map { it.first + it.second }.minOrNull() ?: 0
     }
 }

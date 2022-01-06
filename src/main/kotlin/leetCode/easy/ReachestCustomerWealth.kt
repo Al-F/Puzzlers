@@ -11,7 +11,7 @@ package leetCode.easy
 class ReachestCustomerWealth {
     // More elegant
     fun maximumWealth(accounts: Array<IntArray>): Int {
-        return accounts.map { it.sum() }.max() ?: 0
+        return accounts.map { it.sum() }.maxOrNull() ?: 0
     }
 
     // Faster

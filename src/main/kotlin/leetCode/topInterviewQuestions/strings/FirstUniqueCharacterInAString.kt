@@ -19,7 +19,7 @@ class FirstUniqueCharacterInAString {
                 hashMap[c] = s.length + 1
             }
         }
-        val min = hashMap.values.min() ?: s.length + 1
+        val min = hashMap.values.minOrNull() ?: s.length + 1
         return if (min < s.length) min else -1
     }
 

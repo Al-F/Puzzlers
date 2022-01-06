@@ -68,7 +68,7 @@ class MakingLargeIsland {
                 }
             }
         }
-        val oneIslandSize = islands.values.max()?.plus(1) ?: 0
+        val oneIslandSize = islands.values.maxOrNull()?.plus(1) ?: 0
         return if (max > oneIslandSize) max else oneIslandSize
     }
 
